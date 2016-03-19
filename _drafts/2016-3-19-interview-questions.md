@@ -1,9 +1,19 @@
 ---
-layout: post
 title: Answers to Front-End Development Questions
+author: Fredrick Dominy
+layout: post
+tags:
+- Questions
+- Interview
+- Tests
 ---
 
-#Javascript Questions
+Part of the process of interviewing for a new job is the inevitable test of your depth of knowledge. I imagine even the interviewers aren't too enthusiastic about testing your knowledge. Regardless, it makes sense to be able to speak to these topics with confidence and competence.
+    
+Below are my answers to some common interview questions around the topic of Front-End Web Application Development.
+    
+# Javascript Questions
+    
 ## What is the difference between Jquery & Javascript? 
 
 ## What are undefined and undeclared variables? 
@@ -22,10 +32,11 @@ title: Answers to Front-End Development Questions
 
 ## Explain the "JavaScript module pattern" and when you'd use it. 
 
-#CSS/LESS/SASS Questions
-##Please explain box model. 
+# CSS/LESS/SASS Questions
 
-#HTML Questions
+## Please explain box model. 
+
+# HTML Questions
 
 ## What's a doctype do? 
 
