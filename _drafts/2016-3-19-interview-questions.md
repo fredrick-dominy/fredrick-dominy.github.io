@@ -20,6 +20,8 @@ If we dive in a little deeper on Javascript we will see that it was developed in
 
 Looking at jQuery, it abstracted alot of the difficult functionality that was necessary to make web applications, such as DOM manipulation, AJAX, event handling, and javascript related animation events. 
 
+___
+
 ### What are undefined and undeclared variables, or ?
 
 I referenced a great article by [Lucy Bain](http://lucybain.com/blog/2014/null-undefined-undeclared/) which discussed undeclared, undefined and null variable assignments. 
@@ -36,10 +38,13 @@ var bob; // bob = undefined
 // null is an object and is falsey and is a primitive within javascript
 var bob = null;  // assigned the value of null
 ```
+___
 
 ### What is a closure, and how/why would you use one? 
 
 A closure refers to how the inner workings of a function have access to the properties of its parent function and the global object. Whereas the outer functions do not have access to the locally declared properties.
+
+___
 
 ### What's a typical use case for anonymous functions? 
 
@@ -52,9 +57,28 @@ var doubleIt = arr.map(function(num) {
 });
 ```
 
+Its worthwhile to say that if the callback is a substantial function, you can name it and create a function expression.
+
+```javascript
+var callbackFunction = function(data) {
+    return data.something;
+}
+
+var doubleIt = arr.map(callbackFunction);
+```
+___
+
 ### Can you explain how inheritance works in JavaScript? 
 
+In javascript, inheritance refers to the access given of child objects to their parents. For example if the method `Obj1.method()` doesn't exist, then javascript will look at the parent and keep looking until it reaches the prototype.
+
+___
+
 ### Explain how JSONP works (and how it's not really AJAX) 
+
+I did not know how best to describe this when asked, at least I didn't have a coherent answer.  I knew that JSON stands for javascript object notation, but I didn't understand what the P meant.
+
+___
 
 ### Why is extending built in JavaScript objects not a good idea? 
 
