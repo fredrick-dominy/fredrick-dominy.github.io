@@ -1,6 +1,11 @@
 ---
-layout: post
+author: Fredrick Dominy
 title: Cloud9 & Github to Create a Jekyll Blog
+layout: post
+tags:
+- github
+- cloud9
+- blog
 ---
 
 Fairly easy to do with a minor authentication hiccup...
