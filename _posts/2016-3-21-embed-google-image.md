@@ -11,6 +11,6 @@ Not as easy as you would wish (likely on purpose.) Each google photo has a uniqu
 
 First, make sure the image is public and accessible (not editable.)
 
-Then apply the ID to this url. `http://drive.google.com/uc?export=IMAGEID' where IMAGEID is the unique ID.
+Then apply the ID to this url. `https://drive.google.com/uc?export=IMAGEID` where IMAGEID is the unique ID.
 
 DONE!
