@@ -76,15 +76,44 @@ ___
 
 ### Explain how JSONP works (and how it's not really AJAX) 
 
-I did not know how best to describe this when asked, at least I didn't have a coherent answer.  I knew that JSON stands for javascript object notation, but I didn't understand what the P meant.
+JSON stands for javascript object notation and the P stands for padding which is some type of javascript function attached to the JSON object. 
+
+The 'P' allows for circumvention of CORS (Cross origin resource sharing). According to Widipedia, (CORS)[https://en.wikipedia.org/wiki/Cross-origin_resource_sharing] is a set of 'rules' for the transfer of data between domains.
 
 ___
 
 ### Why is extending built in JavaScript objects not a good idea? 
 
+It could possibly interfere with other programs that use javascript.
+
+___
+
 ### Explain the "JavaScript module pattern" and when you'd use it. 
 
+The javascript module pattern is as follows:
+
+```javascript
+var module = (function(){
+    var _privateFunction = function() {
+        //code
+    }
+    
+    var publicObject = {};
+    publicObject.publicFunction() {
+        // code
+    }
+    
+    return publicObject;
+    
+})(); 
+```
+
+In this case the IFFE is immediately invoked and the module is available on the global scope to which the public functions are available.
+
+___
+
 # CSS/LESS/SASS Questions
+
 
 ### Please explain box model. 
 
