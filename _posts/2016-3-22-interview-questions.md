@@ -78,7 +78,7 @@ ___
 
 JSON stands for javascript object notation and the P stands for padding which is some type of javascript function attached to the JSON object. 
 
-The 'P' allows for circumvention of CORS (Cross origin resource sharing). According to Widipedia, (CORS)[https://en.wikipedia.org/wiki/Cross-origin_resource_sharing] is a set of 'rules' for the transfer of data between domains.
+The 'P' allows for circumvention of CORS (Cross origin resource sharing). According to Widipedia, [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) is a set of 'rules' for the transfer of data between domains.
 
 ___
 
@@ -114,17 +114,56 @@ ___
 
 # CSS/LESS/SASS Questions
 
+### Explain box model. 
 
-### Please explain box model. 
+The box model represents the width and height of the border, padding, and content of an element.
+
+___
 
 # HTML Questions
 
 ### What's a doctype do? 
 
+The DOCTYPE tells the browser how to handle the HTML. Almost useless but necessary for HTML5 according to Wikipedia.
+
+___
+
 ### What's the difference between standards mode and quirks mode? 
+
+As opposed to "standards" mode, "quirks" mode is an attempt by browsers to maintain backwards compatibility.  Apparently a major differnce is how CSS is handled in quirks mode. The prime example was how the browser handled the box model.
+
+___
 
 ### Consider HTML5 as an open web platform. What are the building blocks of HTML5? 
 
+This is such an odd question... My first thought was the document, the ability to handle different elements, handle javascript and css.  I had to search and found this bulleted list from [Mathew Zhong's Site](http://flowerszhong.github.io/2013/11/20/html-questions.html).
+
+* more semantic text markup
+* new form elements
+* vedio and audio
+* new javascript API
+* canvas and SVG
+* new communication API
+* geolocation API
+* web worker API
+* new data storage
+
+Thanks Mathew!
+
 ### Describe the difference between cookies, sessionStorage and localStorage. 
 
+Cookies are used for authentication and security purposes often as a means of identification.
+
+Whereas sessionStorage is and localStorage are very similar, used to save various bits of information about the user's selections or preferences within an application. SessionStorage implies that the data is temporary while localStorage can be saved for use in later sessions. 
+
+___
+
 ### Can you explain the difference between GET and POST?
+
+Both are HTTP requests - typically a GET request implies the non-secure transfer of data between the server and the client while POST implies a secure transfer of protected or personal data.
+
+A minor detail - a GET request is meant to be idempotent (same data every time). Whereas a POST is meant to be dynamic (like a shopping cart.)
+
+___
+
+DONE!
