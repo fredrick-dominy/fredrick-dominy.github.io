@@ -140,7 +140,7 @@ This is such an odd question... My first thought was the document, the ability t
 
 * more semantic text markup
 * new form elements
-* vedio and audio
+* video and audio
 * new javascript API
 * canvas and SVG
 * new communication API
