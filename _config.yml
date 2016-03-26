@@ -28,13 +28,13 @@ footer-links:
   flickr:
   github: fredrick-dominy
   instagram:
-  linkedin: https://www.linkedin.com/in/fredrickdominy
-  pinterest: https://www.pinterest.com/Fredrick_Dominy
+  linkedin: fredrickdominy
+  pinterest: Fredrick_Dominy
   rss: # just type anything here for a working RSS icon
   twitter: fredrickdominy
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: /u/0/+FredrickDominy-Designer
+  googleplus: u/0/+FredrickDominy-Designer
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
