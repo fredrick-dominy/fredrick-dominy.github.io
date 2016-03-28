@@ -2,6 +2,7 @@
 title: Changing the CNAME to Point to blog.fredrickdominy.com
 author: Fredrick Dominy
 layout: post
+comments: true
 tags:
 - CNAME
 - domain
@@ -28,6 +29,5 @@ Then I added the domain that I wanted to point to.
 
 ![CNAME Property on my host domain]({{ site.url }}/images/blog-domain-CNAME.png)
 
-... and voilla, you are now reading this on blog.fredrickdominy.com. DONE!
+... and voilla, you are now reading this on blog.fredrickdominy.com.
 
-___

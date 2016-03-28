@@ -2,6 +2,7 @@
 title: Answers to Front-End Development Questions
 author: Fredrick Dominy
 layout: post
+comments: true
 tags:
 - Questions
 - Interview
@@ -163,7 +164,3 @@ ___
 Both are HTTP requests - typically a GET request implies the non-secure transfer of data between the server and the client while POST implies a secure transfer of protected or personal data.
 
 A minor detail - a GET request is meant to be idempotent (same data every time). Whereas a POST is meant to be dynamic (like a shopping cart.)
-
-___
-
-DONE!

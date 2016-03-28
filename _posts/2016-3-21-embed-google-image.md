@@ -2,6 +2,7 @@
 title: Embedding a google image on your website?
 author: Fredrick Dominy
 layout: post
+comments: true
 tags:
 - Embed
 - Google Image
@@ -12,5 +13,3 @@ Not as easy as you would wish (likely on purpose.) Each google photo has a uniqu
 First, make sure the image is public and accessible (not editable.)
 
 Then apply the ID to this url. `https://drive.google.com/uc?export=IMAGEID` where IMAGEID is the unique ID.
-
-DONE!

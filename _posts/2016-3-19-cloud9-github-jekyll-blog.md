@@ -2,6 +2,7 @@
 author: Fredrick Dominy
 title: Cloud9 & Github to Create a Jekyll Blog
 layout: post
+comments: true
 tags:
 - github
 - cloud9
@@ -49,8 +50,3 @@ Once you have the server up and running you can see begin to modify the content.
 ## Issues
 
 I attempted to create an SSH clone to bypass the authentication of pushing to github, however I hit some roadblocks.  I may investigate later when it annoys me more.
-
-DONE!
-
-
-
