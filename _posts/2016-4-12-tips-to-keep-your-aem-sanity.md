@@ -33,6 +33,6 @@ One snag however is this: Developing in AEM can be a little persnickety, especia
     * Shut the computer down, turn off all of the software, turn around three times while whistling dixie backwards. (This is a last resort - if you're here, likely there is something you're not seeing. Get someone to look over your shoulder and see if anything jumps out.)
 
 ---
-
+* Maven will sometimes fail the build&deploy for no good reason. Try it again. This works for me quite a bit.
 * Any work to a java file necessitates a rebuild and deploy.
 * Compare against similar entries: are there any missing fields? Was this a copy paste gone wrong? I missed a sling:resourceType once that cost me 40 minutes. :(
