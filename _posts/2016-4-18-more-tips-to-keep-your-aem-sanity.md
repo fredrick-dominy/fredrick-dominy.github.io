@@ -1,5 +1,5 @@
 ---
-title: Tips to keep your sanity while working with Adobe Experience Manager (AEM)
+title: Tips to keep your sanity while working with Adobe Experience Manager (AEM) II
 author: Fredrick Dominy
 layout: post
 comments: true
